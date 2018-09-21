@@ -1,1 +1,3 @@
 # FiguresGeometriques
+
+Sergi Paula
