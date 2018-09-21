@@ -1,6 +1,6 @@
 package com.company;
 
-public class Triangle {
+public class Triangle extends Figuras{
 
     public double base;
     public double altura;

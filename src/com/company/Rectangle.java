@@ -1,6 +1,6 @@
 package com.company;
 
-public class Rectangle {
+public class Rectangle extends Figuras{
 
     public double base;
     public double altura;

@@ -1,16 +1,20 @@
 package com.company;
 
-public class Quadrat {
+public class Quadrat extends Rectangle{
 
-    public double costat;
-
-    public Quadrat (double costat){
-
-        this.costat = costat;
+    public Quadrat(double costat){
+        super(costat,costat);
     }
 
-    public double getArea(){
+    //public double costat;
 
-        return costat*costat;
-    }
+    //public Quadrat (double costat){
+
+      //  this.costat = costat;
+    //}
+
+    //public double getArea(){
+
+      //  return costat*costat;
+    //}
 }

@@ -1,18 +1,10 @@
 package com.company;
 
-public class Figura {
-    public double area;
-    public static double suma;
+public abstract class Figura {
 
-    public double getArea() {
-        return this.area;
-    }
+    public  double area;
 
-    public Figura(){
-
-    }
-    public Figura(double area){
-        this.area = area;
-        suma = suma + area;
+    public double getArea(){
+        return area;
     }
 }

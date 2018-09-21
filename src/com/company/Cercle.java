@@ -1,6 +1,6 @@
 package com.company;
 
-public class Cercle {
+public class Cercle extends Figuras{
 
 
     public double radius;

@@ -16,7 +16,15 @@ public class Main {
         System.out.print(c1.getArea()+"\n");
         System.out.print(r1.getArea()+"\n");
 
-        //Figura[] f = new Figura{q1,t1,c1,r1};
+        Figura[] f = new Figura[4];
+        f[1]=q1;
+        f[2]=t1;
+        f[3]= c1;
+        f[4]=r1;
+
+
+
+
 
 
     }
