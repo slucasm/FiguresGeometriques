@@ -17,10 +17,16 @@ public class Main {
         System.out.print(r1.getArea()+"\n");
 
         Figura[] f = new Figura[4];
-        f[1]=q1;
-        f[2]=t1;
-        f[3]= c1;
-        f[4]=r1;
+        f[0]=q1;
+        f[1]=t1;
+        f[2]= c1;
+        f[3]=r1;
+
+
+        System.out.println("Suma de àrees:"+ Figures.sumaareas((f)));
+        Figures.ordenar(f);
+        for (int i = 0; i < f.length;i++)
+            System.out.println(f[i]);
 
 
 

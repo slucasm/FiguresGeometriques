@@ -1,17 +1,20 @@
 package com.company;
 
-public class Cercle extends Figuras{
+public class Cercle extends Figura{
 
 
-    public double radius;
+    private double radius;
+    private double area;
 
-    public Cercle (double radius){
+    public Cercle (double radius)
+    {
         this.radius=radius;
     }
 
-    public double getArea(){
-
+    public double getArea()
+    {
         double pi = Math.PI;
-        return pi * Math.pow(radius,2);
+        this.area = Math.pow(radius,2)*pi;
+        return area;
     }
 }

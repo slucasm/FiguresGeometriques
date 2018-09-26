@@ -1,10 +1,12 @@
 package com.company;
 
-public abstract class Figura {
+abstract public class Figura implements Comparable<Figura>{
+    abstract public double getArea();
 
-    public  double area;
-
-    public double getArea(){
-        return area;
+    public int compareTo (Figura fig){
+        if(fig.getArea()<=this.getArea())
+            return 0;
+        else
+            return -1;
     }
 }

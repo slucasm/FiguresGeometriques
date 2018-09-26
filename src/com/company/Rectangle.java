@@ -1,17 +1,22 @@
 package com.company;
 
-public class Rectangle extends Figuras{
+public class Rectangle extends Figura{
 
-    public double base;
-    public double altura;
+    private double base;
+    private double altura;
+    private double area;
+
+
 
     public Rectangle (double base, double altura) {
         this.base = base;
         this.altura = altura;
     }
 
-    public double getArea() {
-        return base*altura;
+    public double getArea()
+    {
+        this.area = base*altura;
+        return area;
     }
 
 }
